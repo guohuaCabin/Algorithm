@@ -11,7 +11,7 @@ class UnionFind():
     
     def __init__(self):
         self.father = [i for i in range(26)]
-        self.rank =  [i for i in range(26)]
+        self.rank =  [1] * 26
 
     #查找
     def find(self,x):
